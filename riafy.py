@@ -3,7 +3,7 @@ def functions(str):
   valid = ("^(?=.*[a-z])(?=.*[A-Z](?=.*\\d)"+"(?=.*[-+_!@#$%^&*.,?])")
   g=re.compile(valid)
   if(str==null)
-    print ("False")
+    print ("enter string")
     return
   if(re.search(g,str)):
     print ("True")
